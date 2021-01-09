@@ -2,70 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://xt962464.github.io/xt/b98e.html</loc>
+    <loc>https://blog.xt-inn.com/xt/b98e.html</loc>
     
     <lastmod>2021-01-09</lastmod>
     
   </url>
   
   <url>
-    <loc>https://xt962464.github.io/xt/d527.html</loc>
-    
-    <lastmod>2021-01-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xt962464.github.io/xt/3eeb.html</loc>
-    
-    <lastmod>2021-01-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xt962464.github.io/xt/1023.html</loc>
-    
-    <lastmod>2021-01-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://xt962464.github.io/404/404.html</loc>
+    <loc>https://blog.xt-inn.com/404/404.html</loc>
     
     <lastmod>2021-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://xt962464.github.io/contact/index.html</loc>
+    <loc>https://blog.xt-inn.com/contact/index.html</loc>
     
     <lastmod>2021-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://xt962464.github.io/friends/index.html</loc>
+    <loc>https://blog.xt-inn.com/friends/index.html</loc>
     
     <lastmod>2021-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://xt962464.github.io/about/index.html</loc>
+    <loc>https://blog.xt-inn.com/about/index.html</loc>
     
     <lastmod>2021-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://xt962464.github.io/tags/index.html</loc>
+    <loc>https://blog.xt-inn.com/tags/index.html</loc>
     
     <lastmod>2021-01-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://xt962464.github.io/categories/index.html</loc>
+    <loc>https://blog.xt-inn.com/categories/index.html</loc>
     
     <lastmod>2021-01-08</lastmod>
     
@@ -73,7 +52,7 @@
   
 
   <url>
-    <loc>https://xt962464.github.io/</loc>
+    <loc>https://blog.xt-inn.com/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -81,14 +60,14 @@
 
   
   <url>
-    <loc>https://xt962464.github.io/tags/Typora/</loc>
+    <loc>https://blog.xt-inn.com/tags/Typora/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://xt962464.github.io/tags/Markdown/</loc>
+    <loc>https://blog.xt-inn.com/tags/Markdown/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -97,7 +76,7 @@
 
   
   <url>
-    <loc>https://xt962464.github.io/categories/Markdown/</loc>
+    <loc>https://blog.xt-inn.com/categories/Markdown/</loc>
     <lastmod>2021-01-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
