@@ -44,7 +44,7 @@
 
     <style>
         body{
-           background-image: url(https://pic.3gbizhi.com/2020/1111/20201111023251736.jpg.278.154.jpg);
+           background-image: url(https://pic.3gbizhi.com/2020/0909/20200909114047207.jpg.278.154.jpg);
            background-repeat:no-repeat;
            background-size:cover;
            background-attachment:fixed;
@@ -290,7 +290,11 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var d = Math.floor(Math.random()*10);  //可均衡获取0到9的随机整数。
+    var bannerUrl = "http://cdn.blog.xt-inn.com/banner_"+d+".jpg";
+    // var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -310,46 +314,10 @@
             <div class="tag-chips">
                 
                 
-                <a href="/tags/spring-gateway/" title="spring gateway: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="spring gateway" style="background-color: #F9EBEA;">spring gateway
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/nacos/" title="nacos: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="nacos" style="background-color: #F5EEF8;">nacos
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/security/" title="security: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-active "
-                            data-tagname="security" style="background-color: #D5F5E3;">security
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
-                <a href="/tags/JWT/" title="JWT: 1">
-                    <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            data-tagname="JWT" style="background-color: #E8F8F5;">JWT
-                        <span class="tag-length">1</span>
-                    </span>
-                </a>
-                
-                
                 <a href="/tags/springcloud/" title="springcloud: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="springcloud" style="background-color: #FEF9E7;">springcloud
+                            data-tagname="springcloud" style="background-color: #F9EBEA;">springcloud
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -358,7 +326,43 @@
                 <a href="/tags/springsecurity/" title="springsecurity: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="springsecurity" style="background-color: #F8F9F9;">springsecurity
+                            data-tagname="springsecurity" style="background-color: #F5EEF8;">springsecurity
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/spring-gateway/" title="spring gateway: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="spring gateway" style="background-color: #D5F5E3;">spring gateway
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/nacos/" title="nacos: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="nacos" style="background-color: #E8F8F5;">nacos
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/security/" title="security: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="security" style="background-color: #FEF9E7;">security
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/JWT/" title="JWT: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="JWT" style="background-color: #F8F9F9;">JWT
                         <span class="tag-length">1</span>
                     </span>
                 </a>

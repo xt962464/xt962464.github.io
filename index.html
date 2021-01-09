@@ -337,7 +337,11 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var d = Math.floor(Math.random()*10);  //可均衡获取0到9的随机整数。
+    var bannerUrl = "http://cdn.blog.xt-inn.com/banner_"+d+".jpg";
+    // var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -384,6 +388,30 @@
         
             
             <div class="carousel-item amber white-text carousel-post bg-cover"
+                 style="background-image: url('http://cdn.blog.xt-inn.com/cover_21.jpg');">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s10 offset-s1">
+                            <div class="title center-align">text</div>
+                            <div class="description center-align">
+                                
+                                    1231231311
+12314
+                                
+                            </div>
+                            <div class="cover-btns">
+                                <a href="/xt/c829.html" class="waves-effect waves-light btn"
+                                   target="_blank">
+                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            
+            <div class="carousel-item amber white-text carousel-post bg-cover"
                  style="background-image: url('http://cdn.blog.xt-inn.com/cover_7.jpg');">
                 <div class="container">
                     <div class="row">
@@ -402,30 +430,6 @@ Spring Cloud Alibaba:  2.2.1.RELEASE
                             </div>
                             <div class="cover-btns">
                                 <a href="/xt/b98e.html" class="waves-effect waves-light btn"
-                                   target="_blank">
-                                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            
-            <div class="carousel-item amber white-text carousel-post bg-cover"
-                 style="background-image: url('http://cdn.blog.xt-inn.com/cover_21.jpg');">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <div class="title center-align">text</div>
-                            <div class="description center-align">
-                                
-                                    1231231311
-12314
-                                
-                            </div>
-                            <div class="cover-btns">
-                                <a href="/xt/c829.html" class="waves-effect waves-light btn"
                                    target="_blank">
                                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                                 </a>

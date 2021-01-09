@@ -44,7 +44,7 @@
 
     <style>
         body{
-           background-image: url(https://pic.3gbizhi.com/2020/0910/20200910070029140.jpeg.278.154.jpg);
+           background-image: url(https://pic.3gbizhi.com/2020/1111/20201111023251736.jpg.278.154.jpg);
            background-repeat:no-repeat;
            background-size:cover;
            background-attachment:fixed;
@@ -294,7 +294,11 @@
     charset="utf-8" homePageUrl="https://blog.xt-inn.com/" homePageName="回到首页"></script>
 <!-- 
     <script>
-        $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+        // 每天切换 banner 图.  Switch banner image every day.
+    var d = Math.floor(Math.random()*10);  //可均衡获取0到9的随机整数。
+    var bannerUrl = "http://cdn.blog.xt-inn.com/banner_"+d+".png";
+    // var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+        $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
     </script>
  -->
 

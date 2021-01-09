@@ -44,7 +44,7 @@
 
     <style>
         body{
-           background-image: url(https://pic.3gbizhi.com/2020/0910/20200910070029140.jpeg.278.154.jpg);
+           background-image: url(https://pic.3gbizhi.com/2020/0909/20200909114047207.jpg.278.154.jpg);
            background-repeat:no-repeat;
            background-size:cover;
            background-attachment:fixed;
@@ -297,7 +297,11 @@
 
 
 <script>
-    $('.bg-cover').css('background-image', 'url(/medias/banner/0.jpg)');
+    // 每天切换 banner 图.  Switch banner image every day.
+    var d = Math.floor(Math.random()*10);  //可均衡获取0到9的随机整数。
+    var bannerUrl = "http://cdn.blog.xt-inn.com/banner_"+d+".jpg";
+    // var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
+    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
 </script>
 
 
@@ -555,7 +559,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["spring gateway","nacos","security","JWT","springcloud","springsecurity"]
+                data: ["springcloud","springsecurity","spring gateway","nacos","security","JWT"]
             }
         ],
         yAxis: [
@@ -675,6 +679,18 @@
         <div class="tag-chips center-align">
             
             
+            <a href="/tags/springcloud/">
+                <span class="chip center-align waves-effect waves-light chip-default">springcloud</span>
+            </a>
+            
+            
+            
+            <a href="/tags/springsecurity/">
+                <span class="chip center-align waves-effect waves-light chip-default">springsecurity</span>
+            </a>
+            
+            
+            
             <a href="/tags/spring-gateway/">
                 <span class="chip center-align waves-effect waves-light chip-default">spring gateway</span>
             </a>
@@ -695,18 +711,6 @@
             
             <a href="/tags/JWT/">
                 <span class="chip center-align waves-effect waves-light chip-default">JWT</span>
-            </a>
-            
-            
-            
-            <a href="/tags/springcloud/">
-                <span class="chip center-align waves-effect waves-light chip-default">springcloud</span>
-            </a>
-            
-            
-            
-            <a href="/tags/springsecurity/">
-                <span class="chip center-align waves-effect waves-light chip-default">springsecurity</span>
             </a>
             
             
