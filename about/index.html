@@ -44,7 +44,7 @@
 
     <style>
         body{
-           background-image: url(https://pic.3gbizhi.com/2020/0909/20200909114047207.jpg.278.154.jpg);
+           background-image: url(https://pic.3gbizhi.com/2020/0910/20200910070029140.jpeg.278.154.jpg);
            background-repeat:no-repeat;
            background-size:cover;
            background-attachment:fixed;
@@ -317,21 +317,21 @@
                     <div class="post-statis col l4 hide-on-med-and-down" data-aos="zoom-in-right">
                         
 <div class="statis">
-    <span class="count"><a href="/">2</a></span>
+    <span class="count"><a href="/">7</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories">1</a></span>
+    <span class="count"><a href="/categories">6</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">6</a></span>
+    <span class="count"><a href="/tags">18</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -347,21 +347,21 @@
                                 <div class="post-statis hide-on-large-only" data-aos="zoom-in-right">
                                     
 <div class="statis">
-    <span class="count"><a href="/">2</a></span>
+    <span class="count"><a href="/">7</a></span>
     <span class="name">文章</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/categories">1</a></span>
+    <span class="count"><a href="/categories">6</a></span>
     <span class="name">分类</span>
 </div>
 
 
 
 <div class="statis">
-    <span class="count"><a href="/tags">6</a></span>
+    <span class="count"><a href="/tags">18</a></span>
     <span class="name">标签</span>
 </div>
 
@@ -493,7 +493,7 @@
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,0,0,0,0,2],
+                data: [0,0,0,0,0,0,0,0,0,2,1,1,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -535,7 +535,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"微服务","value":2}],
+                data: [{"name":"PHP","value":1},{"name":"微服务","value":5},{"name":"SpringCloud","value":3},{"name":"Springboot","value":1},{"name":"java","value":1},{"name":"springboot","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -559,7 +559,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["springcloud","springsecurity","spring gateway","nacos","security","JWT"]
+                data: ["SpringCloud","JWT","Spring Security","Eureka","ribbon","feign","Hystrix","zuul网关","Springboot","聊天机器人"]
             }
         ],
         yAxis: [
@@ -572,7 +572,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [1,1,1,1,1,1],
+                data: [3,2,1,1,1,1,1,1,1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
@@ -679,14 +679,80 @@
         <div class="tag-chips center-align">
             
             
-            <a href="/tags/springcloud/">
-                <span class="chip center-align waves-effect waves-light chip-default">springcloud</span>
+            <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7/">
+                <span class="chip center-align waves-effect waves-light chip-default">微信公众号</span>
             </a>
             
             
             
-            <a href="/tags/springsecurity/">
-                <span class="chip center-align waves-effect waves-light chip-default">springsecurity</span>
+            <a href="/tags/%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA/">
+                <span class="chip center-align waves-effect waves-light chip-default">聊天机器人</span>
+            </a>
+            
+            
+            
+            <a href="/tags/SpringCloud/">
+                <span class="chip center-align waves-effect waves-light chip-default">SpringCloud</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Eureka/">
+                <span class="chip center-align waves-effect waves-light chip-default">Eureka</span>
+            </a>
+            
+            
+            
+            <a href="/tags/ribbon/">
+                <span class="chip center-align waves-effect waves-light chip-default">ribbon</span>
+            </a>
+            
+            
+            
+            <a href="/tags/feign/">
+                <span class="chip center-align waves-effect waves-light chip-default">feign</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Hystrix/">
+                <span class="chip center-align waves-effect waves-light chip-default">Hystrix</span>
+            </a>
+            
+            
+            
+            <a href="/tags/zuul%E7%BD%91%E5%85%B3/">
+                <span class="chip center-align waves-effect waves-light chip-default">zuul网关</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Springboot/">
+                <span class="chip center-align waves-effect waves-light chip-default">Springboot</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Spring-Security/">
+                <span class="chip center-align waves-effect waves-light chip-default">Spring Security</span>
+            </a>
+            
+            
+            
+            <a href="/tags/JWT/">
+                <span class="chip center-align waves-effect waves-light chip-default">JWT</span>
+            </a>
+            
+            
+            
+            <a href="/tags/mybatis-plus/">
+                <span class="chip center-align waves-effect waves-light chip-default">mybatis plus</span>
+            </a>
+            
+            
+            
+            <a href="/tags/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB/">
+                <span class="chip center-align waves-effect waves-light chip-default">前后端分离</span>
             </a>
             
             
@@ -709,8 +775,14 @@
             
             
             
-            <a href="/tags/JWT/">
-                <span class="chip center-align waves-effect waves-light chip-default">JWT</span>
+            <a href="/tags/Spring-Cloud-Hoxton/">
+                <span class="chip center-align waves-effect waves-light chip-default">Spring Cloud Hoxton</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Spring-Cloud-Alibaba/">
+                <span class="chip center-align waves-effect waves-light chip-default">Spring Cloud Alibaba</span>
             </a>
             
             
@@ -745,7 +817,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">3.8k</span>&nbsp;字
+                class="white-color">13k</span>&nbsp;字
             
             
             
